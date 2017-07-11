@@ -28,9 +28,9 @@ graph.reinit()
 function makePattern(c, maxLength=16){
   const probs = {
     'x': {
-      '_': 0.3,
+      '_': 0.4,
       'x': 0.1,
-      '-': 0.6
+      '-': 0.5
     },
     '_': {
       'x': 0.1,
@@ -61,5 +61,4 @@ function makePattern(c, maxLength=16){
   return recur(c);
 }
 
-console.log(makePattern('x'));
-console.log(makePattern('-'));
+module.exports.makePattern = makePattern;
