@@ -9,7 +9,9 @@
   "author": "alice",
   "license": "ISC",
   "dependencies": {
+    "jsbayes": "0.0.5",
     "scribbletune": "^0.9.1",
-    "teoria": "^2.5.0"
+    "teoria": "^2.5.0",
+    "trials": "^1.0.0"
   }
 }
